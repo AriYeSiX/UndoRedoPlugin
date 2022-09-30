@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace UndoRedoPlugin.Example
 {
+    /// <summary>
+    /// realisation of undoable change transform position action
+    /// </summary>
     public class ChangeTransformPositionAction : IUndoable
     {
         private readonly Transform _changePositionTarget;

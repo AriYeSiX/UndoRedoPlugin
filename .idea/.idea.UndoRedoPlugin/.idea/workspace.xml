@@ -8,6 +8,11 @@
       </path>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
@@ -29,26 +34,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/AbstractButtonClickEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/Actions/ChangeTransformPositionAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/ActionButtonType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Toggle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/ChangeMaterialColorButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Scripts/IUndoable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/Controllers/ObjectsPositionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/ChangeMaterialColorButtonGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Scripts/UndoRedoStorage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/UndoRedoButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/Actions/ChangeMaterialColorAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/AbstractButtonClickEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/Controllers/ChangeMaterialColorService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/Controllers/ObjectsPositionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Scripts/IUndoeable.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/ChangeTransformPositionAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Scripts/IUndoable.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/ActionButtonType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/AbstractButtonClickEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/UndoRedoButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Scripts/UndoRedoStorage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/Actions/ChangeTransformPositionAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/AbstractToggleChangeValueEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/Controllers/ObjectsPositionController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/ChangeMaterialColorButtonGroup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/Actions/ChangeMaterialColorAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Scripts/IUndoable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/Actions/ChangeTransformPositionAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/Controllers/ChangeMaterialColorService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/AbstractButtonClickEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/UndoRedoPlugin/Example/Scripts/View/ChangeMaterialColorButton.cs" />
       </list>
     </option>
   </component>
@@ -96,6 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664423209473</updated>
       <workItem from="1664423248623" duration="19108000" />
+      <workItem from="1664508527587" duration="11417000" />
     </task>
     <servers />
   </component>
@@ -114,6 +131,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -123,10 +141,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="328" y="275" width="574" height="544" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1664438364602" />
-    <state x="601" y="113" key="RiderGenerateDialog" timestamp="1664428532127">
+    <state x="601" y="113" key="RiderGenerateDialog" timestamp="1664509823427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="601" y="113" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1664428532127" />
+    <state x="601" y="113" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1664509823427" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1664438438134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

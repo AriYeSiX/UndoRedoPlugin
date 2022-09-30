@@ -20,12 +20,9 @@ namespace UndoRedoPlugin.Example
             _button.onClick.AddListener(OnButtonClickAction);
         }
 
-        protected virtual void OnDestroy()
-        {
+        protected virtual void OnDestroy() =>
             _button.onClick.RemoveListener(OnButtonClickAction);
-        }
 
         protected abstract void OnButtonClickAction();
-
     }
 }
