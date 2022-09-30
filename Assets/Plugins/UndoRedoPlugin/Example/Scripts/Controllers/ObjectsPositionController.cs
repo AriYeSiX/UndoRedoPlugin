@@ -3,9 +3,12 @@ using UnityEngine;
 
 namespace UndoRedoPlugin.Example
 {
+    /// <summary>
+    /// Script for drag and drop any object at scene and add this actions into the storage
+    /// </summary>
     public class ObjectsPositionController : MonoBehaviour
     {
-        private const int RAYDIRACTIONCOEFFICIENT = 10;
+        private const int RAY_DIRACTION_COEFFICIENT = 10;
         
         [SerializeField] private UndoRedoStorage _storage;
         
@@ -62,7 +65,7 @@ namespace UndoRedoPlugin.Example
         {
             Transform target;
             Ray ray = _mainCamera.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast (ray.origin, ray.direction * RAYDIRACTIONCOEFFICIENT, out hit)) {
+            if (Physics.Raycast (ray.origin, ray.direction * RAY_DIRACTION_COEFFICIENT, out hit)) {
                 target = hit.collider.transform;
                 _haveTarget = true;
                 _targetStartPosition = target.position;

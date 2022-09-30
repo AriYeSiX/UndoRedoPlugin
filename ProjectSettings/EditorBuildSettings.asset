@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Plugins/UndoRedoPlugin/Example/ExampleScene.unity
+    guid: c3496418ec0c28446a6381975a1005ce
   m_configObjects: {}
