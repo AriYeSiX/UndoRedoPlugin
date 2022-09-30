@@ -7,4 +7,4 @@ For work you need only two base scripts:
 
 And make your own realisation with using your action service and "IUndoable" interface action
 
-For a better understanding, there is an example in the project
+For a better understanding, there is an example in the project.
